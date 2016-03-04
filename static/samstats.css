@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #B1C3C8;
+    width: 1000px;
+    background-image: url(../static/images/planet.jpg);
+}
+#navigation {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #181D46;
+    color: #FFDB91;
+    border-radius: 34px;
+}
+#navigation a {
+    color: #CC882C;
+}
+#navigation a:hover {
+    color: #F3DB5E;
+}
+#content {
+    background-color: hsla(214,17%,52%,0.84);
+    width: 800px;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    border-radius: 30px;
+    color: #000000;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-weight: bolder;
+    text-align: left;
+    float: none;
+}
+#content p a {
+    color: #F3DB5E;
+    text-decoration: none;
+}
+#content p a:hover {
+    color: #CC882C;
+}
+#content li a {
+    color: #F3DB5E;
+    text-decoration: none;
+}
+#content li a:hover {
+    color: #CC882C;
+}
+#footer {
+    background-color: #181D46;
+    color: #FFDB91;
+    text-align: center;
+}
+
