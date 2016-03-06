@@ -3,26 +3,27 @@
 body {
     margin-left: auto;
     margin-right: auto;
-    background-color: #B1C3C8;
+    background-color: #50609c;
     width: 1000px;
-    background-image: url(../static/images/planet.jpg);
+    background-image: url(../static/images/planet.png);
 }
 #navigation {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #181D46;
+    background-color: hsla(214,17%,52%,0.84);
     color: #FFDB91;
     border-radius: 34px;
 }
 #navigation a {
-    color: #CC882C;
+    color: #b1b3cc;
 }
 #navigation a:hover {
-    color: #F3DB5E;
+    color: #FFFFFF;
 }
 #content {
-    background-color: hsla(214,17%,52%,0.84);
+    background-color: rgb(45, 58, 103);
+    background-color: rgba(45, 58, 103, 0.84);
     width: 800px;
     padding-top: 100px;
     padding-right: 100px;
@@ -30,28 +31,29 @@ body {
     padding-left: 100px;
     border-radius: 30px;
     color: #000000;
-    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", serif;
     font-weight: bolder;
     text-align: left;
     float: none;
 }
 #content p a {
-    color: #F3DB5E;
+    color: #b1b3cc;
     text-decoration: none;
 }
 #content p a:hover {
-    color: #CC882C;
+    color: #FFFFFF;
 }
 #content li a {
-    color: #F3DB5E;
+    color: #b1b3cc;
     text-decoration: none;
 }
 #content li a:hover {
-    color: #CC882C;
+    color: #FFFFFF;
 }
 #footer {
-    background-color: #181D46;
-    color: #FFDB91;
+    background-color: hsla(214,17%,52%,0.84);
+    color: #FFFFFF;
     text-align: center;
+    border-radius: 34px;
 }
 

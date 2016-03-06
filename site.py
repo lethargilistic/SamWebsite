@@ -17,10 +17,6 @@ def imagery():
 def videos():
     return dict()
 
-@app.route("/recent")
-def recent():
-    return dict()
-
 @app.route("/stylesheets/<str:sheetname>")
 def get_stylesheet(sheetname):
     if sheetname:
